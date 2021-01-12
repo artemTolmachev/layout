@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.header {
+    background-color: #30bcdf;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo {
+    width: 260px;
+    float: left;
+    padding: 23px 0;
+
+    background-color: #94e5f9;
+    font-size: 32px;
+}
+.nav {
+    width: 460px;
+    float: right;
+    padding: 23px 0;
+
+    background-color: #94e5f9;
+    font-size: 32px;
+}
+.left-column {
+    float: left;
+    width: 280px;
+    padding: 30px;
+    background-color: #30df93;
+}
+.column-blok {
+    padding: 40px 0;
+    margin-bottom: 30px;
+
+    background-color: #83fcc8;
+    font-size: 32px;
+    
+}
+.column-blok:last-child {
+    margin-bottom: 0;
+}
+.right-column {
+    width: 680px;
+    float: right;
+    padding: 30px;
+    background-color: #e4e5b5;
+}
+.right-column::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+   margin-bottom: 30px;
+}
+.content:last-child {
+    margin-bottom: 0;
+}
+
+.content-blok {
+    padding: 22px;
+    background-color: #30bcdf;
+}
+.content-blok-hader {
+    padding: 20px 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    background-color: #69daf6;
+}
+.content-blok-main {
+    padding: 60px 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    background-color: #69daf6;
+}
+.footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer-blok {
+    padding: 20px 25px;
+    font-size: 22px;
+    background-color: #69daf6;
+}
+.left-blok {
+    float: left;
+}
+.right-blok {
+    float: right;
+}
+.icon {
+    
+    border-radius: 50px;
+    background-color: #3097df;
+    position: fixed;
+    padding: 28px;
+    right: 30px;
+    bottom: 30px;   
+}
+
